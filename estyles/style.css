@@ -2,9 +2,9 @@
 
 :root {
     --cor-primaria: #000000;
-    --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #22D4FD;
-    --cor-hover: #272727;
+    --cor-secundaria: #deeac0a8;
+    --cor-terciaria: #9fba9e;
+    --cor-hover: #70615c;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -92,8 +92,10 @@ body{
     color: antiquewhite;
 }
 
-.apresentacao__imagem{
-    width: 50%;
+.apresentacao__imagem {
+    height:50%;
+    border-radius: 80px;
+    border: solid var(--cor-terciaria);
 }
 
 .rodape{
